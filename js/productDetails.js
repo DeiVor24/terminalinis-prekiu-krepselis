@@ -27,7 +27,7 @@ const firstShoppingList = [
 console.log(productDetails(emptyList, 42069));
 
 function visomoketi(a,b) {
-    return a * b;
+    return (a * b).toFixed(2);
     
 }
 
