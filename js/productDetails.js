@@ -35,9 +35,8 @@ function visomoketi(a,b) {
 
 const info = ' Viso mokėti   1990000.00 Eur';
 const dash = ('-'.repeat(info.length));
+
 console.log(dash);
-
-
 const top = ' Prekės informacija ';
 console.log(top);
 console.log(dash);
@@ -51,6 +50,8 @@ const d = `Vieneto kaina | ${firstShoppingList[0].unitPrice} eur`;
 console.log(d);
 const e = `Viso moketi   | ${visomoketi(firstShoppingList[0].amount,firstShoppingList[0].unitPrice )} eur`;
 console.log(e);
+console.log(dash);
+
 
 console.log(dash);
 const top1 = ' Prekės informacija ';
@@ -66,6 +67,8 @@ const d1 = `Vieneto kaina | ${firstShoppingList[1].unitPrice} eur`;
 console.log(d1);
 const e1 = `Viso moketi   | ${visomoketi(firstShoppingList[1].amount,firstShoppingList[1].unitPrice )} eur`;
 console.log(e1);
+console.log(dash);
+
 
 console.log(dash);
 const top2 = ' Prekės informacija ';
@@ -81,6 +84,8 @@ const d2 = `Vieneto kaina | ${firstShoppingList[2].unitPrice} eur`;
 console.log(d2);
 const e2 = `Viso moketi   | ${visomoketi(firstShoppingList[2].amount,firstShoppingList[2].unitPrice )} eur`;
 console.log(e2);
+console.log(dash);
+
 
 console.log('                                               ');
 
@@ -104,6 +109,26 @@ console.log(dash2);
 const kiwi = ` 1. ${singleProductShoppingList[0].name}      | ${singleProductShoppingList[0].amount} vnt      | ${singleProductShoppingList[0].unitPrice} eur        | ${visomoketi(singleProductShoppingList[0].amount,singleProductShoppingList[0].unitPrice )} eur`;
 console.log(kiwi);
 console.log(dash2);
+
+
+console.log(dash);
+const top3 = ' Prekės informacija ';
+console.log(top3);
+console.log(dash);
+const a3 = `ID            | ${singleProductShoppingList[0].id} `;
+console.log(a3);
+const b3 = `Pavadinimas   | ${singleProductShoppingList[0].name} `;
+console.log(b3);
+const c3 = `Kiekis        | ${singleProductShoppingList[0].amount} vnt`;
+console.log(c3);
+const d3 = `Vieneto kaina | ${singleProductShoppingList[0].unitPrice} eur`;
+console.log(d3);
+const e3 = `Viso moketi   | ${visomoketi(singleProductShoppingList[0].amount,singleProductShoppingList[0].unitPrice )} eur`;
+console.log(e3);
+console.log(dash);
+
+
+
 
 
 
