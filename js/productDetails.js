@@ -52,6 +52,7 @@ console.log(d);
 const e = `Viso moketi   | ${visomoketi(firstShoppingList[0].amount,firstShoppingList[0].unitPrice )} eur`;
 console.log(e);
 
+console.log(dash);
 const top1 = ' Prekės informacija ';
 console.log(top1);
 console.log(dash);
@@ -66,6 +67,7 @@ console.log(d1);
 const e1 = `Viso moketi   | ${visomoketi(firstShoppingList[1].amount,firstShoppingList[1].unitPrice )} eur`;
 console.log(e1);
 
+console.log(dash);
 const top2 = ' Prekės informacija ';
 console.log(top2);
 console.log(dash);
