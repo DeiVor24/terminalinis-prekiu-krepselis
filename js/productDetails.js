@@ -54,16 +54,6 @@ console.log(e);
 
 
 
-// Prekės informacija
-// ------------------------------
-// ID            | 1
-// Pavadinimas   | Pomidoras
-// Kiekis        | 1000000 vnt
-// Vieneto kaina | 1.99 Eur
-// Viso mokėti   | 1990000.00 Eur
-// ------------------------------
-   
-
     
     
 
