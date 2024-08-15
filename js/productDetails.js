@@ -7,12 +7,6 @@
 
    
 
-    console.log('---------------------------------------------------------------');
-    console.log('Pavadinimas | Kiekis | Vieneto kaina | Viso moketi|');
-    console.log('---------------------------------------------------------------');
-    console.log('---------------------------------------------------------------');
-    console.log('Pavadinimas | Kiekis | Vieneto kaina | Viso moketi|');
-    console.log('---------------------------------------------------------------');
     
     
 
