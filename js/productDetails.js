@@ -1,5 +1,5 @@
 const emptyList = [];
-function productDetails([], i) {
+function productDetails([],i) {
     return (i <= firstShoppingList.length) ? firstShoppingList[i] : `Prekė, su ID:  ${i}  neegzistuoja.`;
 }
 
@@ -24,7 +24,7 @@ const firstShoppingList = [
     },
 ];
 
-console.log(productDetails(emptyList, 42069));
+console.log(productDetails(firstShoppingList, 0));
 
 function visomoketi(a,b) {
     return (a * b).toFixed(2);
