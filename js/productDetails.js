@@ -39,7 +39,7 @@ const firstShoppingList = [
     },
 ];
 
-console.log(productDetails(emptyList, ));
+console.log(productDetails(emptyList, 42069));
    
 
     
