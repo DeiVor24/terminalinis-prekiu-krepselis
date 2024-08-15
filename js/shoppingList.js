@@ -1,10 +1,3 @@
-// function shoppingList(emptyList) {
-//     return ((emptyList + emptyList.length) === 0),'Šiuo metu, jūsų prekių krepšelis yra tuščias.'
-// }
-// return emptyList.length > 0)
-// ;
-// const emptyList = [];
-// console.log(shoppingList(emptyList));
 
 const emptyList = [];
 function shoppingList(i) {
