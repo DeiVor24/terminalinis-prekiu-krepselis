@@ -80,7 +80,24 @@ console.log(d2);
 const e2 = `Viso moketi   | ${visomoketi(firstShoppingList[2].amount,firstShoppingList[2].unitPrice )} eur`;
 console.log(e2);
 
+console.log('                                               ');
 
+const singleProductShoppingList = [
+    {
+        id: 2,
+        name: 'Kivi',
+        amount: 23,
+        unitPrice: 14,
+    },
+];
+
+
+
+
+const singleTop = ' Pavadinimas  | Kiekis      | Vieneto kaina | Viso mokėti '
+console.log(singleTop);
+const kiwi = ' 1. Pomidoras | 1000000 vnt | 1.99 Eur      | 1990000.00 Eur ';
+console.log(pom1);
 
 
 
@@ -88,6 +105,9 @@ console.log(e2);
 
     
     
-
+Pavadinimas | Kiekis | Vieneto kaina | Viso mokėti
+--------------------------------------------------
+1. Kivi     | 23 vnt | 0.14 Eur      | 3.22 Eur
+--------------------------------------------------
 
 

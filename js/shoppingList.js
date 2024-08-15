@@ -1,17 +1,8 @@
-// // const emptyList = [];
 
-// // console.log(shoppingList(emptyList));
-// // /*
-// // Šiuo metu, jūsų prekių krepšelis yra tuščias.
-
-
-// const emptyList = [];
-// function shoppingList(i) {
-//     return (i === 0),'Šiuo metu, jūsų prekių krepšelis yra tuščias.';
-
-// }
-// console.log(shoppingList(emptyList));
-
+function visomoketi(a,b) {
+    return (a * b).toFixed(2);
+    
+}
 
 const firstShoppingList = [
     {
@@ -41,18 +32,18 @@ const firstShoppingList = [
 const krepselis = firstShoppingList.length;
 console.log(`Jūsų prekių krepšelyje yra ${krepselis} prekės:`);
 
-const longest = ' 1. Pomidoras | 1000000 vnt | 1.99 Eur      | 1990000.00 Eur ';
+const longest = ` 1. ${firstShoppingList[0].name} | ${firstShoppingList[0].amount} vnt | ${firstShoppingList[0].unitPrice} eur       | ${visomoketi(firstShoppingList[0].amount,firstShoppingList[0].unitPrice )} eur`;
 const dash = ('-'.repeat(longest.length));
 console.log(dash);
 const top = ' Pavadinimas  | Kiekis      | Vieneto kaina | Viso mokėti '
 console.log(top);
 console.log(dash);
-const pom1 = ' 1. Pomidoras | 1000000 vnt | 1.99 Eur      | 1990000.00 Eur ';
+const pom1 = ` 1. ${firstShoppingList[0].name} | ${firstShoppingList[0].amount} vnt | ${firstShoppingList[0].unitPrice} eur       | ${visomoketi(firstShoppingList[0].amount,firstShoppingList[0].unitPrice )} eur`;
 console.log(pom1);
-const ag2 = ' 2. Agurkas   | 2 vnt       | 0.50 Eur      | 1.00 Eur ' ;
+const ag2 = ` 2. ${firstShoppingList[1].name}   | ${firstShoppingList[1].amount} vnt       | ${firstShoppingList[1].unitPrice} eur        | ${visomoketi(firstShoppingList[1].amount,firstShoppingList[1].unitPrice )} eur` ;
 console.log(ag2);
-const svo3 = ' 3. Svogūnas  | 1 vnt       | 0.45 Eur      | 0.45 Eur ';
-console.log(svo3);
+const svo3 = ` 3. ${firstShoppingList[2].name}  | ${firstShoppingList[2].amount} vnt       | ${firstShoppingList[2].unitPrice} eur        | ${visomoketi(firstShoppingList[2].amount,firstShoppingList[2].unitPrice )} eur`;
+console.log(svo3); 
 console.log(dash);
 
 
