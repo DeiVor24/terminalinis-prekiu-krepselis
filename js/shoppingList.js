@@ -62,27 +62,7 @@ console.log(dash);
 
 
 
-/*
-Jūsų prekių krepšelyje yra 3 prekės:
------------------------------------------------------------
-Pavadinimas  | Kiekis      | Vieneto kaina | Viso mokėti
------------------------------------------------------------
-1. Pomidoras | 1000000 vnt | 1.99 Eur      | 1990000.00 Eur
-2. Agurkas   | 2 vnt       | 0.50 Eur      | 1.00 Eur
-3. Svogūnas  | 1 vnt       | 0.45 Eur      | 0.45 Eur
------------------------------------------------------------
-*/
 
-
-
-
-
-
-
-// console.log(firstShoppingList.length);
-
-
-// console.log(`Jūsų prekių krepšelyje yra ${firstShoppingList.length}  prekės:`);
 
 
 
