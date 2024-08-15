@@ -52,6 +52,34 @@ console.log(d);
 const e = `Viso moketi   | ${visomoketi(firstShoppingList[0].amount,firstShoppingList[0].unitPrice )} eur`;
 console.log(e);
 
+const top1 = ' Prekės informacija ';
+console.log(top1);
+console.log(dash);
+const a1 = `ID            | ${firstShoppingList[1].id} `;
+console.log(a1);
+const b1 = `Pavadinimas   | ${firstShoppingList[1].name} `;
+console.log(b1);
+const c1 = `Kiekis        | ${firstShoppingList[1].amount} vnt`;
+console.log(c1);
+const d1 = `Vieneto kaina | ${firstShoppingList[1].unitPrice} eur`;
+console.log(d1);
+const e1 = `Viso moketi   | ${visomoketi(firstShoppingList[1].amount,firstShoppingList[1].unitPrice )} eur`;
+console.log(e1);
+
+const top2 = ' Prekės informacija ';
+console.log(top2);
+console.log(dash);
+const a2 = `ID            | ${firstShoppingList[2].id} `;
+console.log(a2);
+const b2 = `Pavadinimas   | ${firstShoppingList[2].name} `;
+console.log(b2);
+const c2 = `Kiekis        | ${firstShoppingList[2].amount} vnt`;
+console.log(c2);
+const d2 = `Vieneto kaina | ${firstShoppingList[2].unitPrice} eur`;
+console.log(d2);
+const e2 = `Viso moketi   | ${visomoketi(firstShoppingList[2].amount,firstShoppingList[2].unitPrice )} eur`;
+console.log(e2);
+
 
 
 
