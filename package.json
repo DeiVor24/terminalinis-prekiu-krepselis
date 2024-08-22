@@ -2,10 +2,9 @@
   "name": "terminalinis-prekiu-krepselis",
   "version": "1.0.0",
   "main": "index.js",
+  "type":"module",
   "scripts": {
-    
-    "productDetails": "node --watch ./js/productDetails.js",
-    "shoppingList": "node --watch ./js/shoppingList.js",
+    "js": "node ./index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

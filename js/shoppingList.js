@@ -1,63 +1,35 @@
+export function emptyList(list) {
+    return list === 0 ? 'Šiuo metu, jūsų prekių krepšelis yra tuščias.' : list;
 
-function visomoketi(a,b) {
-    return (a * b).toFixed(2);
-    
 }
 
-const firstShoppingList = [
-    {
-        id: 1,
-        name: 'Pomidoras',
-        amount: 1000000,
-        unitPrice: 199,
-    },
-    {
-        id: 3,
-        name: 'Agurkas',
-        amount: 2,
-        unitPrice: 50,
-    },
-    {
-        id: 7,
-        name: 'Svogūnas',
-        amount: 1,
-        unitPrice: 45,
-    },
-];
+export function prekesPatikra (preke){
+if (!preke.includes(preke)) {
+    return `Prekė, su ID: ${preke} neegzistuoja.`;
+}
+}
+
+export function visaKaina(preke) {
+    return (preke.kiekis * preke.kaina).toFixed(2);
+}
 
 
+export function krepselis (krepselis){
+    console.log(`Jūsų prekių krepšelyje yra ${prekes.length > 1 ? 'ės' : 'ė'}`);
+console.log("-----------------------------------------------------------");
+console.log("Pavadinimas  | Kiekis      | Vieneto kaina | Viso mokėti");
+console.log("-----------------------------------------------------------");
 
+krepselis.forEach((preke, index) => {
+    const visoMoketi = visaKaina(preke);
+    const pavadinimas = preke.pavadinimas.padEnd(preke.length);
+    const kiekis = (`${preke.kiekis} +  vnt`).padEnd(preke.length);
+    const kaina = (`${preke.kaina.toFixed(2)} + Eur`).padEnd(preke.length);
+    const viso = `${visoMoketi}  Eur`;
+    
+    console.log(`${index + 1}. ${pavadinimas} | ${kiekis} | ${kaina} | ${viso}`);
+});
 
-
-const krepselis = firstShoppingList.length;
-console.log(`Jūsų prekių krepšelyje yra ${krepselis} prekės:`);
-
-const longest = ` 1. ${firstShoppingList[0].name} | ${firstShoppingList[0].amount} vnt | ${firstShoppingList[0].unitPrice} eur       | ${visomoketi(firstShoppingList[0].amount,firstShoppingList[0].unitPrice )} eur`;
-const dash = ('-'.repeat(longest.length));
-console.log(dash);
-const top = ' Pavadinimas  | Kiekis      | Vieneto kaina | Viso mokėti '
-console.log(top);
-console.log(dash);
-const pom1 = ` 1. ${firstShoppingList[0].name} | ${firstShoppingList[0].amount} vnt | ${firstShoppingList[0].unitPrice} eur       | ${visomoketi(firstShoppingList[0].amount,firstShoppingList[0].unitPrice )} eur`;
-console.log(pom1);
-const ag2 = ` 2. ${firstShoppingList[1].name}   | ${firstShoppingList[1].amount} vnt       | ${firstShoppingList[1].unitPrice} eur        | ${visomoketi(firstShoppingList[1].amount,firstShoppingList[1].unitPrice )} eur` ;
-console.log(ag2);
-const svo3 = ` 3. ${firstShoppingList[2].name}  | ${firstShoppingList[2].amount} vnt       | ${firstShoppingList[2].unitPrice} eur        | ${visomoketi(firstShoppingList[2].amount,firstShoppingList[2].unitPrice )} eur`;
-console.log(svo3); 
-console.log(dash);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+console.log("-----------------------------------------------------------");
+}
 
