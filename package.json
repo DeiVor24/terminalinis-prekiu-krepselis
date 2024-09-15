@@ -4,6 +4,7 @@
   "main": "index.js",
   "type":"module",
   "scripts": {
+    "shoppingList": "node --watch ./js/shoppingList.js",
     "js": "node ./index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,9 +13,6 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "-": "^0.0.1",
-    "D": "^1.0.0",
-    "dead": "^0.0.2",
-    "server": "^1.0.39"
+    "-": "^0.0.1"
   }
 }
